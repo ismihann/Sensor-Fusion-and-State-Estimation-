@@ -83,3 +83,19 @@ The overall architecture of the V1 system is:
                            ▼
                   Kalman State Estimate
                     Position + Velocityan
+
+---
+
+## 4. Results
+
+### Acceleration Comparison
+
+![Acceleration Comparison](figures/acceleration_comparison.png)
+
+### Position Comparison
+
+![Position Comparison](figures/position_comparison.png)
+
+### Velocity Comparison
+
+![Velocity Comparison](figures/velocity_comparison.png)
