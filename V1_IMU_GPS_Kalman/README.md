@@ -99,3 +99,15 @@ The overall architecture of the V1 system is:
 ### Velocity Comparison
 
 ![Velocity Comparison](figures/velocity_comparison.png)
+
+### RMSE Results
+
+The estimation performance is evaluated using Root Mean Square Error (RMSE).
+
+| Method | Position RMSE |
+|--------|---------------|
+| IMU | ~1.14 m |
+| GPS | ~1.00 m |
+| Kalman Filter | ~0.43 m |
+
+The Kalman Filter provides a lower position estimation error compared to the standalone IMU and GPS measurements.
