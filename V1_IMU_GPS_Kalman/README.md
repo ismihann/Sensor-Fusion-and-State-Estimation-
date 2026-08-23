@@ -106,8 +106,8 @@ The estimation performance is evaluated using Root Mean Square Error (RMSE).
 
 | Method | Position RMSE |
 |--------|---------------|
-| IMU | ~1.14 m |
-| GPS | ~1.00 m |
-| Kalman Filter | ~0.43 m |
+IMU      : 1.1365 m
+GPS      : 0.9988 m
+Kalman   : 0.4304 m
 
 The Kalman Filter provides a lower position estimation error compared to the standalone IMU and GPS measurements.
